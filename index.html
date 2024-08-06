@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hello World</title>
+        <!--la etiqueta meta, se refiere a datos de los datos metadata, y va siempre en la etiqueta dead del HTML-->
+        <!--la etiqueta meta no tiene etiqueta de cierre-->
+        <!--la metadata le da al navegador datos sobre como se deben comportar los datos que debe interpretar-->
+        <meta charset="UTF-8">
+        <!--<meta http-equiv="refresh" content="30"> Esto es para que la página se recargue cada 30 segundos-->
+        <meta name="Description" content="I'm following an html free tutorial for beginners">
+        <meta name="Keywords" content="html, study, trying">
+        <meta name="Author" content="Some guy">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Importante para que el sitio se pueda ver desde cualquier dispositivo movil-->
+    </head>
+
+    <body>
+        <h1>This is my website</h1>
+        <!--Que pasa wacho-->
+        <p>How's it going</p>
+        <br>
+        <p>And now this is for testing "br" or line breaks</p>
+        <hr>
+        <p>What you can see over me it's a "hr" tag wich adds a horizontal ruler</p>
+        <hr>
+        <p>This is the hyperlink section</p>
+        <a href="https://clash.gg/rewards" target=_self title="This takes you to Clash.gg">
+            Don't click here
+        </a>
+        <p>The next one leads you to the next page of the article</p>
+        <a href="page2.html" target=_self title="This is the second page">
+            Next page
+        </a>
+        <br>
+        <p>and if you want te leave me a message, you can do it here:</p>
+            <a href="mailto:ivan.fernandez01122@gmail.com" target=_self title="This is my mail">
+                Leave me a coment
+            </a>
+        <p>I can even add an image like this one</p>
+        <a href="https://www.fanpop.com/clubs/anime/images/34330521/title/anime-photo">
+        <img src="imagenes/imagen.jpg" width="200" alt="This is an anime picture" title="Anime girl">
+        </a>
+        <p>Now I will link a song</p>
+        <audio controls loop>
+            <source src="Audio/NEFFEX - Things Are Gonna Get Better 👊  [Copyright Free] No.14.mp3">
+            <source src="Audio/NEFFEX - Things Are Gonna Get Better 👊  [Copyright Free] No.14.wav">
+            This browser does not suport html5 audio
+        </audio>
+        <p>If there is an audio file, it means there is a video file somewhere right?</p>
+        <video controls muted width="480">
+            <source src="Video/NEFFEX.mp4">
+        </video>
+        <br>
+        <p>Sample text for <b>formatting</b></p>
+        <p>Sample text for <i>formatting</i></p>
+        <p>Sample text for <big>formatting</big></p>
+        <p>Sample text for <small>formatting</small></p>
+        <p>Sample text for <sub>formatting</sub></p>
+        <p>Sample text for <sup>formatting</sup></p>
+        <p>Sample text for <ins>formatting</ins></p>
+        <p>Sample text for <del>formatting</del></p>
+        <p>Sample text for <mark>formatting</mark></p>
+    
+    <br>
+    <p>Let's make a list next</p>
+    <h4>Unordered list</h4>
+    <ul> <!--this list is for a shopping list for example-->
+        <li>Flour</li>
+        <li>tomato sauce</li> <!--"li" is for listed item-->
+    </ul>
+    <h4>Ordered list</h4>
+    <!--We use "ol" tag for ordered lists. These are used when you have a to-do list for example-->
+    <ol type="I">
+        <li>Wake up 7.50</li>
+        <li>Drink water</li>
+        <li>Take a bath</li>
+            <ol type="a">
+                <li>Cold</li>
+                <li>Warm</li>
+            </ol>
+        <li>study</li>
+    </ol>
+    <h4>Description list</h4>
+    <dl>   
+        <!--It's used when you want to make a list of things witch their definition, por example a definitions table-->
+        <dt>Cucumber</dt>
+        <dd>It is a cucumber</dd>
+    </dl>
+    <hr>
+    <br>
+<!--creating a table-->
+<h3 align="center">Store hours</h3>
+    <table bgcolor="Black" width="700">
+        <tr bgcolor="gray">
+            <th width="100">Monday</th>
+            <th width="100">Tuesday</th>
+            <th width="100">Wednesday</th>
+            <th width="100">Thursday</th>
+            <th width="100">Friday</th>
+            <th width="100">Saturday</th>
+            <th width="100">Sunday</th>
+        </tr>
+        <tr bgcolor="lightgray" align="center">
+            <td>8 to 18</td>
+            <td>8 to 18</td>
+            <td>8 to 18</td>
+            <td>8 to 18</td>
+            <td>8 to 18</td>
+            <td>Closed</td>
+            <td>Closed</td>
+        </tr>
+    </table>
+<hr>
+<br>
+<!--Div divide una porción del documento en el que pueden encontrarse varias etiquetas-->
+<!--span marca una porción del documento o de un texto en el mismo-->
+
+<h2>Div y Span</h2>
+<div style="background-color: #444444;">
+<p><span style="color: blueviolet;">kjshdkjfhsdkjfhskfhkjsfhksdbfjsdbvsvusdhfksdhfsdkjhfhsdkfskfhkjdsbfkjs
+    dbfksdbfkjsdhfkjsdhfkjbsdkfhsdkfhkjdsh</span>fkjsdfhkjshfkjdshfjsdhfjkhsakjfhsdkdjfhskdfhksdf</p>
+<p>kjshdkjfhsdkjfhskfhkjsfhksdbfjsdbvsvusdhfksdhfsdkjhfhsdkfskfhkjdsb
+    fkjsdbfksdbfkjsdhfkjsdhfkjbsdkfhsdkfhkjdshfkjsdfhkjshfkjdshfjsdhfjkhsakjfhsdkdjfhskdfhksdf</p>
+<p>kjshdkjfhsdkjfhskfhkjsfhksdbfjsdbvsvusdhfksdhfsdkjhfhsdkfskfhk
+    jdsbfkjsdbfksdbfkjsdhfkjsdhfkjbsdkfhsdkfhkjdshfkjsdfhkjshfkjdshfjsdhfjkhsakjfhsdkdjfhskdfhksdf</p></div>
+<br>
+<hr>
+<!--La etiqueta <iframe> sirve para hacer un injerto de otra página dentro de nuestra propia página, sirve para añadir ads, o una barra de búsqueta como lo que hace bing en su página principal con las noticias.-->
+<h2>Use of iframe to embeed another site page into an html document</h2>
+<iframe style="border: 0;" src="page2.html" width="750" height="250"></iframe>
+<hr>
+<br>
+<a href="page2.html">
+    <button  style="background-color: aquamarine; border-radius: 5px;">Go to page 2</button>
+</a>
+<button onclick="doSomething()">Click me</button>
+<p id="test">Hello</p>
+<script>
+    function doSomething(){
+        document.getElementById("test").innerHTML = "Good Bye fellow Bro"
+    }
+</script>
+<hr>
+<br>
+ <form id="user" action="action_page" method="POST"><!--GET muestra los datos en la barra de la URL, es un método inseguro cuando necesitamos que la persona coloque datos sensibles en el formulario. POST es más seguro. Para usar esto se usa una página php-->
+    
+    <div>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" placeholder="John" required>
+    </div>
+
+<br>
+
+    <div>
+        <label for="lname">Last name</label>
+        <input type="text" id="lname" name="lname" placeholder="Doe" required>
+    </div>
+
+<br>
+    
+    <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" maxlength="12" minlength="6" required>
+    </div>
+
+<br>
+
+    <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="JohnDoe@gmail.com" required>
+    </div>
+
+<br>
+
+    <div>
+        <label for="phone">Phone</label>
+        <input type="tel" id="phone" name="phone" placeholder="+598 xxxxxxxx" required>
+    </div>
+
+<br>
+
+    <div>
+        <label for="bdate">Birthdate</label>
+        <input type="date" id="bdate" name="bdate" required>
+    </div>
+
+<br>
+
+    <div>
+        <label for="quantity">Quantity</label>
+        <input type="number" id="quantity" name="quantity" min="0" max="10" value="1" required>
+    </div>
+
+<br>
+
+    <div>
+        <label for="title">Title:</label>
+
+        <label for="Mr.">Mr.</label>
+        <input type="radio" id="Mr." name="title" required>
+
+        <label for="Mrs.">Mrs.</label>
+        <input type="radio" id="Mrs." name="title" required>
+
+        <label for="PhD.">PhD.</label>
+        <input type="radio" id="PhD." name="title" required>
+    </div>
+
+<br>
+    <div>
+        <label for="payment">Payment method</label>
+        <select id="payment" name="payment">
+            <option value="visa">Visa</option>
+            <option value="mastercard">Mastercard</option>
+            <option value="paypal">Paypal</option>
+        </select>
+    </div>
+
+<br>
+
+    <div>
+        <label for="suscribe">Suscribe</label>
+        <input type="checkbox" id="suscribe" name="suscribe">
+    </div>
+
+<br>
+
+    <div>
+        <input type="reset">
+    </div>
+
+<br>
+
+    <div>
+        <input type="submit">
+    </div>
+
+ </form>
+
+ <a href="page3.html">
+    <button>Page 3</button>
+ </a>
+
+</body>
+</html>
